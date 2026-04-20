@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "email": "admin@email.com",
+      "password": "123456"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Tecnología",
+      "descripcion": "Empleos en áreas de IT, desarrollo de software, y sistemas."
+    },
+    {
+      "id": 2,
+      "nombre": "Diseño",
+      "descripcion": "Diseño gráfico, UX/UI, multimedia."
+    },
+    {
+      "id": 3,
+      "nombre": "Administración",
+      "descripcion": "Asistencia administrativa, contabilidad, recursos humanos."
+    }
+  ],
+  "trabajos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Desarrollador Vue 3 Semi-Senior",
+      "descripcion": "Buscamos un desarrollador experimentado en Vue 3 y Vite para unirse a nuestro equipo remoto. Requiere solidos conocimientos en JavaScript y CSS.",
+      "empresa": "TechCorp Solutions",
+      "salario": "2500 USD",
+      "ubicacion": "Remoto"
+    },
+    {
+      "id": 3,
+      "categoriaId": 2,
+      "titulo": "Diseñador UI/UX",
+      "descripcion": "Creación de interfaces limpias, modernas y centradas en el usuario. Se requiere portafolio y manejo de Figma.",
+      "empresa": "Creative Studio",
+      "salario": "1500 USD",
+      "ubicacion": "Presencial (Santa Cruz)"
+    }
+  ],
+  "postulaciones": [
+    {
+      "id": 1,
+      "trabajoId": 1,
+      "candidato": "Juan Perez",
+      "email": "juan@perz.com",
+      "experiencia": "5 años"
+    },
+    {
+      "candidato": "macelo",
+      "email": "marcelo@gmail.com",
+      "experiencia": "2",
+      "trabajoId": 1,
+      "id": 2
+    }
+  ]
+}
